@@ -330,7 +330,7 @@ function makeCompressedUnit(img) {
   lowRes.pixelDensity(1);
   lowRes.noSmooth();
 
-  lowRes.image(img, 0, 0, 8, 8);
+  lowRes.image(img, 0, 0, 14, 14);
   unit.image(lowRes, 0, 0, cellSize, cellSize);
 
   unit.noStroke();
