@@ -326,7 +326,7 @@ function makeCompressedUnit(img) {
   unit.pixelDensity(1);
   unit.noSmooth();
 
-  let lowRes = createGraphics(8, 8);
+  let lowRes = createGraphics(14, 14);
   lowRes.pixelDensity(1);
   lowRes.noSmooth();
 
